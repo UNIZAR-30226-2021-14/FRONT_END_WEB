@@ -298,7 +298,7 @@ class Cabecera extends React.Component {
                   
                   <td><Link to="/"><img className="logoEmpresa" src={logo} alt="Logo"/></Link></td>
                   
-                  <td><button className="contacto"><Link to="/contacto" className="contactoLink">Contacta con nosotros</Link></button></td>
+                  <td><Link to="/contacto" className="contactoLink"><button className="contacto">Contacta con nosotros</button></Link></td>
                   <td><button className="login" onClick={this.togglePopup2.bind(this)}>Login</button></td>
                   <td><button className="SignIn" onClick={this.togglePopup3.bind(this)}>Sign-In</button></td>
                 </tr>

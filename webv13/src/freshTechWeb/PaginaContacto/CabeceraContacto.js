@@ -29,7 +29,7 @@ class Cabecera extends React.Component {
                 <tr>
                   
                   <td  className="cabeceraContacto"><Link to="/contacto"><img className="logoEmpresa" src={logo} alt="Logo"/></Link></td>
-                  <td className="cabeceraContacto"><button className="vueltaAInicio"><Link to="/" className="contactoLink">Volver a inicio</Link></button></td>
+                  <td className="cabeceraContacto"><Link to="/" className="contactoLink"><button className="vueltaAInicio">Volver a inicio</button></Link></td>
                   <td></td>
                 </tr>
               </tbody>
